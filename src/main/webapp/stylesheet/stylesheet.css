@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: #5bc0eb;
+}
+header{
+    background-color: #211A1E;
+    margin: 0px;
+    border: none;
+    height: 75px;
+}
+header li {
+    display: inline;
+    list-style: none;
+    
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+header ul{
+    float:right;
+}
+header a{
+    color: aliceblue;
+    text-decoration: none;
+}
+header a:hover{
+    color: #5bc0eb;
+}
+header  p{
+    display: inline;
+    font-size: 200%;
+}
+header nav{
+    background-color: #211A1E;
+    padding : 5%;
+    margin: 0px;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+}
+
+/*header section ends*/
+.container{
+    /* background-color:#9BC53D; */
+    margin: 5%;   
+   
+}
+.child{
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    
+}
+.datatable{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+}
+table{
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+th{
+    font-size: large;
+    background-color: #211A1E;
+    color: aliceblue;
+}
+th ,td{
+    padding: 1px;
+
+    border-bottom: 1px solid #211A1E;
+}
+form{
+    padding: 10px;
+}
+
+
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+    border: aliceblue;
+    margin: 5px;
+    padding: 10px;
+    width: 90%;
+}
+
+input[type="submit"],button{
+    color: #211a1e ;
+    border: 1px solid  ;
+    color: #211a1e ;
+    
+}
+
+input[type="submit"]:hover{
+    background-color:#211a1e ;
+    color:aliceblue ;
+}
+
+button{
+    margin: 5px;
+    padding: 10px;
+    width: 90%;
+    border:1px solid #211a1e;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #211A1E;
+    color: aliceblue;
+
+}
+
+/* in students by class*/
+.datatable input , .datatable h2 ,.datatable button{
+    display: inline;
+    width: 60px;
+    border-radius: 5px;
+}
+.datatable button:hover{
+    background-color: #9BC53D;
+    color: #211A1E;
+}
+
+section{
+    background-color: aliceblue;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+aside{
+    background-color: #9BC53D;
+    width: 20%;
+    float: right;
+}
+
+.container img:hover{
+    transform: scale(1.5);
+    transition: 100ms;
+}
+.inbox{
+    
+}
