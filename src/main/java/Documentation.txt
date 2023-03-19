@@ -1,0 +1,30 @@
+--------- School Management ----------
+
+ --Roles--
+ ->Admin
+ ->Teachers
+ ->Students
+ 
+ --> Admin
+ -> Have full access to Application
+ -> Can view all the Teachers and Students
+ -> Can edit or delete the teachers or students
+ -> can assigne class to student or teachers
+ -> setting fee to class and paying salary to salary
+ 
+ --> Teacher
+ -> can view or edit Details of here self (email,pass)
+ -> can see all the students of her class
+ -> can edit students attendance and grade
+ 
+ --> Student
+ -> Can view his/her details (email,pass)
+ -> can view his class toppers
+ 
+ --> PROJECT STURCUTRE
+ -> 5 Modules
+ -> 1 - Authentication - (It handals all the authetication related prosess)
+ -> 2 - Controller - (respective Models Operation Servlets)
+ -> 3 - Dao -	(All the operation codes and it is also connects to db)
+ -> 4 - Model - (Beans or Entityes )
+ -> 5 - util - (Helper classes)

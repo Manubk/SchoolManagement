@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: #5bc0eb;
+}
+header{
+    height: 75px;
+    margin: 0%;
+}
+header nav{
+    position: fixed;
+    top: 0%;
+    background-color: #211A1E;
+    width: 100%;
+    height: 75px;
+  }
+header ul{
+    list-style-type: none;
+    margin: 0px;
+    padding:0px
+    
+ }
+header li {
+    border-radius: 2px;
+   display: inline;
+   float: right;
+   padding: 8px;
+
+}
+header a{
+   text-decoration: none;
+   color: aliceblue;
+   padding: 8px;
+   text-align: center;
+ 
+}
+header li:hover , header li a:hover{
+    background-color: #5bc0eb;
+    color: #211A1E;
+}
+header  p{
+    display: inline;
+    font-size: 200%;
+    float: left;
+    padding: 8px;
+}
+
+
+/*header section ends*/
+.container{
+    /* background-color:#9BC53D; */
+    margin: 3%;   
+   
+}
+.child{
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    
+}
+.child strong{
+    text-align: center;
+}
+.datatable{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+}
+table{
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+th{
+    font-size: large;
+    background-color: #211A1E;
+    color: aliceblue;
+}
+th ,td{
+    padding: 1px;
+    border-bottom: 1px solid #211A1E;
+}
+form{
+    padding: 10px;
+}
+
+
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+    border: aliceblue;
+    margin: 5px;
+    padding: 10px;
+    width: 90%;
+}
+
+.child fieldset{
+    border-color: aliceblue ;
+    padding: 10px;
+    margin : 5px;
+    width: 90%;
+    
+}
+input[type="submit"],button{
+    color: #211a1e ;
+    border: 1px solid  ;
+    border-radius: 5px 20px;
+    color: #211a1e ;
+    
+}
+
+input[type="submit"]:hover{
+    background-color:#211a1e ;
+    color:aliceblue ;
+}
+
+button{
+    margin: 5px;
+    padding: 10px;
+    width: 90%;
+    border:1px solid #211a1e;
+    border-radius: 5px 20px;
+}
+button a{
+    text-decoration: none;
+    color: #211A1E;
+}
+
+button:hover{
+    background-color: #211A1E;
+    color: aliceblue;
+
+}
+button:hover > a{
+    color: aliceblue;
+}
+
+/* in students by class*/
+.datatable input , .datatable h2 ,.datatable button{
+    display: inline;
+    width: 60px;
+    border-radius: 5px;
+}
+.datatable button:hover{
+    background-color: #9BC53D;
+    color: #211A1E;
+}
+
+section{
+    background-color: aliceblue;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+aside{
+    background-color: #9BC53D;
+    width: 20%;
+    float: right;
+}
+
+.container img:hover{
+    transform: scale(1.5);
+    transition: 100ms;
+}
+.inbox{
+    
+}
+
+.container-grid{
+    margin: 10px;
+    background-color: #211A1E;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 20%  40% 40%;
+    g
+
+}
+.profile-image{
+    background-color: #9BC53D;
+    
+}
+.name{
+    background-color: rgb(32, 55, 55);
+}
+
